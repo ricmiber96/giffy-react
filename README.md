@@ -17,3 +17,19 @@
  14.  Usando state de loading
  15. Guardando un objeto en el state del componente
  16. Scripts de nuestro proyecto: build
+
+ ## Clase 2:
+ 1. Añadiendo un form que haga de buscador de Gifs
+ 2. Usando useLocation de wouter
+ 3. Extrayendo lógica a un custom hook: useGifs
+ 4. ¿Custom Hooks son High Order Components?
+ 5. useGifs, haciendo que use el localStorage
+ 6. ¿Por qué extraer los métodos de callback en constantes?
+ 7. Usando Context de ReactJS
+ 8. Usando el Provider del Context
+ 9. Acceder a la información del Context desde un componente
+ 10. Valor inicial de Context por si no usas Provider
+ 11. El problema de hacer export default
+ 12. Lograr un estado global usando el Context
+ 13. Recuperar el detalle del gif del estado global
+ 14. Buenas prácticas para el Context por Kent C. Dodds

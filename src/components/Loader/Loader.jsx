@@ -1,6 +1,6 @@
 
-import { React, useState } from 'react'
-import '../styles/loader.styles.css'
+import { React } from 'react'
+import './loader.styles.css'
 
 export default function Loader () {
   return (

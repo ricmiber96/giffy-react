@@ -1,0 +1,39 @@
+.category-list {
+    color: #fff;
+    font-weight: bold;
+}
+
+.category-title {
+    list-style-position: inside;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+
+.category-link {
+    color: white;
+    font-size: 1em;
+    padding: .5em;
+    transition: color ease-in .1s;
+}
+
+.category-link:hover {
+    color: #09f;
+}
+
+
+
+@media screen and (min-width: 640px) {
+    .category-list {
+        display: list-item;
+    }
+
+    .category-list li::before {
+        color: #09f;
+        content: '*';
+        margin-right: .2em;
+        font-size: 1em;
+    }
+}
