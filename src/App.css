@@ -21,7 +21,7 @@
   color: white;
 }
 
-.app-content {
+/* .app-content {
   color: white;
   display: flex;
   flex-direction: row;
@@ -29,7 +29,7 @@
   min-height: 100vh;
   padding: 16px;
   text-align: center;
-}
+} */
 
 
 .app-results {

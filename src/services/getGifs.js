@@ -1,7 +1,6 @@
 
-export default function getGifs ({ keyword = 'rick' } = {}) {
-  console.log(import.meta.env.REACT_APP_API_KEY)
-  const apiUrl = `https://api.giphy.com/v1/gifs/search?api_key=${import.meta.env.VITE_API_KEY}&q=${keyword}&limit=25&offset=0&rating=g&lang=en`
+export default function getGifs ({ limit = 25, keyword = 'rick', page = 0 } = {}) {
+  const apiUrl = `https://api.giphy.com/v1/gifs/search?api_key=${import.meta.env.VITE_API_KEY}&q=${keyword}&limit=${limit}&offset=${page * limit}&rating=g&lang=en`
   return fetch(apiUrl)
     .then(res => res.json())
     .then(response => {

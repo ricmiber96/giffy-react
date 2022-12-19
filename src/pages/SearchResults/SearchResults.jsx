@@ -7,7 +7,11 @@ import { useGifs } from '../../hooks/useGifs'
 
 export default function SearchResults () {
   const { keyword } = useParams()
-  const { loading, gifs } = useGifs({ keyword })
+  const { loading, gifs, setPage } = useGifs({ keyword })
+
+  const handleNextPage = () => {
+    setPage(prevPage => prevPage + 1)
+  }
 
   return (
     <>
@@ -19,6 +23,7 @@ export default function SearchResults () {
             <ListOfGifs gifs={gifs} />
             </div>
     }
+      <button onClick={handleNextPage}>Get Next Page</button>
     </>
   )
 }

@@ -10,7 +10,7 @@ export default function Category ({ name, options = [], ...props }) {
         {
         options.map((singleOption, i) => (
           <li key={singleOption}>
-            <Link className='category-link' to={`/search/${singleOption}`}>
+            <Link className={'flex flex-row lg:flex-col before:content-[\'+\']'} to={`/search/${singleOption}`}>
               {singleOption}
             </Link>
           </li>

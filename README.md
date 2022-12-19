@@ -8,7 +8,7 @@
  5. Llamada a API en React con fetch
  6. Extrayendo lógica a un servicio  
  7. Creando nuestros primeros componentes
- 8. Usando key para lista de elementos [54:43]
+ 8. Usando key para lista de elementos
  9.  Creando componente ListOfGifs 
  10. Las dependencias del useEffect 
  11. Añadiendo algo de estilos 
@@ -33,3 +33,16 @@
  12. Lograr un estado global usando el Context
  13. Recuperar el detalle del gif del estado global
  14. Buenas prácticas para el Context por Kent C. Dodds
+
+## Clase 3:
+1. Añadir Trendings de Giphy
+2. Arreglar título con espacios
+3. Imports amigables y limpios usando baseUrl
+4. Cargar lazy la sección de Trending
+5. useRef para guardar elementos del DOM
+6. Cómo instalar un polyfill de Intersection Observer
+7. Crear hook useNearScreen desde cero
+8. Cargar un componente de forma dinámica con React.lazy
+9. ¿Qué es Suspense y por qué lo necesitamos?
+10. React Placeholders con SVG
+11. Paginación con React
